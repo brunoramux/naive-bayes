@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+plotly = "*"
+matplotlib = "*"
+statsmodels = "*"
+nbformat = "*"
+ipykernel = "*"
+scikit-learn = "*"
+ipywidgets = "*"
+flask = "*"
+pydantic = "*"
+flask-pydantic = "*"
+pyarrow = "*"
+optuna = "*"
+sweetviz = "==2.3.1"
+numpy = "==1.26.4"
+seaborn = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
